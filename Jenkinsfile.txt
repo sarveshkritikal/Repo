@@ -7,7 +7,7 @@ pipeline {
 stage('blur') {
             steps {
 
-           #### catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
+           ####sarvesh catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
 
                sh 'python3 test_script_v1.6.py blur'
                                       }
