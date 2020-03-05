@@ -9,7 +9,9 @@ stage('blur') {
 
            ####sarvesh catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE'){
 
-               sh 'python3 test_script_v1.6.py blur'
+              ***********************************************              
+
+ sh 'python3 test_script_v1.6.py blur'
                                       }
             }
         }
